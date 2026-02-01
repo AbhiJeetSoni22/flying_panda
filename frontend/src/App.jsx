@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getAlerts } from "./services/api";
 import CreateAlertForm from "./components/CreateAlertForm";
-import AlertTable from "./components/alertTable";
+import AlertTable from "./components/AlertTable";
 
 
 function App() {
