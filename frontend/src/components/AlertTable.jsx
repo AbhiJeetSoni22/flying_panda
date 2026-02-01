@@ -13,6 +13,7 @@ const statusColor = (status) => {
   }
 };
 
+
 const AlertTable = ({ alerts, refresh }) => {
   const handleStatusUpdate = async (id, currentStatus) => {
     const nextStatus =
