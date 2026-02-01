@@ -19,7 +19,7 @@ app.use(logger);
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin:[ "http://localhost:5173","https://flying-panda-self.vercel.app"],
   }),
 );
 // routes
